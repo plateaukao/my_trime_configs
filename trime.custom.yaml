@@ -1,0 +1,120 @@
+patch:  
+  "preset_color_schemes/myliu":  #配色方案ID  
+    name: myliu          #配色名称  
+    back_color: 0xFFFFFF  #背景  
+    text_color: 0x000000  #文字
+    key_back_color: 0xFFFFFF   #按键背景    
+    hilited_candidate_back_color: 0xEEEEEE  #候选高亮背景 
+
+
+  # 1、让嘸蝦米使用36键键盘布局  
+  "preset_keyboards/myliu":
+    name: 嘸蝦米
+    author: "Daniel Kao<daniel.kao@gmail.com"
+    ascii_mode: 0
+    columns: 10 #鍵盤列數，超過則自動換行，默認30列
+    width: 10
+    height: 55
+    lock: true
+    key_symbol_offset_x: 0
+    key_symbol_offset_y: 0
+    key_text_offset_x: 0
+    key_text_offset_y: 0
+    key_hint_offset_x: 0
+    key_hint_offset_y: 0
+    key_press_offset_x: 2
+    key_press_offset_y: 2
+    keys:
+    - {click: 'q', long_click: '!', swipe_up: 1}
+    - {click: 'w', long_click: '@', swipe_up: 2}
+    - {click: 'e', long_click: '#', swipe_up: 3}
+    - {click: 'r', long_click: '$', swipe_up: 4}
+    - {click: 't', long_click: '%', swipe_up: 5}
+    - {click: 'y', long_click: '^', swipe_up: 6}
+    - {click: 'u', long_click: '&', swipe_up: 7}
+    - {click: 'i', long_click: '*', swipe_up: 8}
+    - {click: 'o', long_click: '(){Left}', swipe_up: 9}
+    - {click: 'p', long_click: 'Hide', swipe_up: 0}
+    - {width: 5}
+    - {click: 'a', long_click: select_all, swipe_left: Left, swipe_right: Right, swipe_up: Up, swipe_down: Down}
+    - {click: 's', long_click: '~', swipe_left: Home, swipe_right: End, swipe_up: Page_Up, swipe_down: Page_Down}
+    - {click: 'd', long_click: '-', swipe_down: '_'}
+    - {click: 'f', long_click: '+', swipe_down: '='}
+    - {click: 'g', long_click: '\', swipe_down: '|'}
+    - {click: 'h', long_click: '[]{Left}', swipe_left: '[', swipe_right: ']'}
+    - {click: 'j', long_click: '{}{Left}', swipe_left: '{', swipe_right: '}'}
+    - {click: 'k', long_click: ':'}
+    - {click: 'l', long_click: ';'}
+    - {width: 5}
+    - {click: Shift_L, label: '⇧', send_bindings: false, width: 15}
+    - {click: 'z', long_click: '`'}
+    - {click: 'x', long_click: cut}
+    - {click: 'c', long_click: copy}
+    - {click: 'v', long_click: paste}
+    - {click: 'b', long_click: Time, swipe_up: Date}
+    - {click: 'n', long_click: '"'}
+    - {click: 'm', long_click: "'"}
+    - {click: BackSpace, label: '⌫', swipe_left: Escape, width: 15}
+    - {click: Hide, label: '▾', long_click: Menu}
+    - {click: Mode_switch, label: '🌐', long_click: Menu}
+    - {click: ',', long_click: '<'}
+    - {click: space, width: 35}
+    - {click: '.', long_click: '>'}
+    - {click: Keyboard_number, label: '123', long_click: Keyboard_symbols}
+    - {click: Return, label: '⏎', width: 15}
+
+  # 1、让嘸蝦米使用36键键盘布局  
+  "preset_keyboards/hangugeo":
+    name: 韓文
+    author: "Daniel Kao<daniel.kao@gmail.com"
+    ascii_mode: 0
+    columns: 10 #鍵盤列數，超過則自動換行，默認30列
+    width: 10
+    height: 55
+    lock: true
+    key_symbol_offset_x: 0
+    key_symbol_offset_y: 0
+    key_text_offset_x: 0
+    key_text_offset_y: 0
+    key_hint_offset_x: 0
+    key_hint_offset_y: 0
+    key_press_offset_x: 2
+    key_press_offset_y: 2
+    keys:
+    - {click: 'ㅂ', long_click: '!', swipe_up: 1}
+    - {click: 'ㅈ', long_click: '@', swipe_up: 2}
+    - {click: 'ㄷ', long_click: '#', swipe_up: 3}
+    - {click: 'ㄱ', long_click: '$', swipe_up: 4}
+    - {click: 'ㅅ', long_click: '%', swipe_up: 5}
+    - {click: 'ㅛ', long_click: '^', swipe_up: 6}
+    - {click: 'ㅕ', long_click: '&', swipe_up: 7}
+    - {click: 'ㅑ', long_click: '*', swipe_up: 8}
+    - {click: 'ㅐ', long_click: '(){Left}', swipe_up: 9}
+    - {click: 'ㅔ', long_click: 'Hide', swipe_up: 0}
+    - {width: 5}
+    - {click: 'ㅁ', long_click: select_all, swipe_left: Left, swipe_right: Right, swipe_up: Up, swipe_down: Down}
+    - {click: 'ㄴ', long_click: '~', swipe_left: Home, swipe_right: End, swipe_up: Page_Up, swipe_down: Page_Down}
+    - {click: 'ㅇ', long_click: '-', swipe_down: '_'}
+    - {click: 'ㄹ', long_click: '+', swipe_down: '='}
+    - {click: 'ㅎ', long_click: '\', swipe_down: '|'}
+    - {click: 'ㅗ', long_click: '[]{Left}', swipe_left: '[', swipe_right: ']'}
+    - {click: 'ㅓ', long_click: '{}{Left}', swipe_left: '{', swipe_right: '}'}
+    - {click: 'ㅏ', long_click: ':'}
+    - {click: 'ㅣ', long_click: ';'}
+    - {width: 5}
+    - {click: Shift_L,  label: '⇧', send_bindings: false, width: 15}
+    - {click: 'ㅋ', long_click: '`'}
+    - {click: 'ㅌ', long_click: cut}
+    - {click: 'ㅊ', long_click: copy}
+    - {click: 'ㅍ', long_click: paste}
+    - {click: 'ㅠ', long_click: Time, swipe_up: Date}
+    - {click: 'ㅜ', long_click: '"'}
+    - {click: 'ㅡ', long_click: "'"}
+    - {click: BackSpace, label: '⌫', swipe_left: Escape, width: 15}
+    - {click: Hide, label: '▾', long_click: Menu}
+    - {click: Mode_switch, label: '🌐', long_click: Menu}
+    - {click: ',', long_click: '<'}
+    - {click: space, width: 35}
+    - {click: '.', long_click: '>'}
+    - {click: Keyboard_number, label: '123', long_click: Keyboard_symbols}
+    - {click: Return, label: '⏎', width: 15}
