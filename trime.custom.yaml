@@ -2,9 +2,12 @@ patch:
   "preset_color_schemes/myliu":  #配色方案ID  
     name: myliu          #配色名称  
     back_color: 0xFFFFFF  #背景  
+    border_color: 0x000000
     text_color: 0x000000  #文字
-    key_back_color: 0xFFFFFF   #按键背景    
-    hilited_candidate_back_color: 0xEEEEEE  #候选高亮背景 
+    # key_back_color: 0xFFFFFF   #按键背景    
+    #hilited_candidate_back_color: 0xEEEEEE  #候选高亮背景 
+    #hilited_candidate_border_color: 0xEEEEEE
+
 
 
   # 1、让嘸蝦米使用36键键盘布局  
